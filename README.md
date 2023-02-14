@@ -1,10 +1,10 @@
-R Environment
+# Reliability analysis of a ship fender using a vine-copula
 
-for vine copula example
+## Create R Environment
 
-[This](https://andrewpwheeler.com/2022/04/08/managing-r-environments-using-conda/) is a useful post.
+Instructions for running analysis with local Anaconda installation. The following steps should be run in a terminal and will install a conda environment for R and run the analysis.
 
-Find newest available r package on conda, like [`r-base`](https://anaconda.org/conda-forge/r-base). There are several options...but be sure to check the version for your OS! Seems like windows lags behind the others, especially Linux. I chose 4.1.3 on Feb 14, 2023.
+
 ```
 conda create --name r-vine-fender
 conda activate r-vine-vine-fender
@@ -13,7 +13,3 @@ conda install --file requirements.txt
 Rscript packs.r
 Rscript run_reliability.r
 ```
-
-
-Had to extract the packages that are in the base install, then installed from CRAN using `packs.R`. Everything seemed to be ok. Loading everything with `libraries.r` ran without error, though.
-
