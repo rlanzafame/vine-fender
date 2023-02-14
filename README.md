@@ -6,7 +6,7 @@ Instructions for running analysis with local Anaconda installation. The followin
 
 Robert ran this using git bash. If you don't have git installed you can download the repo directly from GitHub.
 
-```
+```bash
 git clone git@github.com:rlanzafame/vine-fender.git
 conda create --name r-vine-fender
 conda activate r-vine-vine-fender
@@ -17,6 +17,6 @@ Rscript run_reliability.r
 ```
 
 If you don't have SSH enabled, clone the repository by replacing the first line in the example above with:
-```
+```bash
 git clone https://github.com/rlanzafame/vine-fender.git
 ```
