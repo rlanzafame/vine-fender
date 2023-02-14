@@ -1,0 +1,7 @@
+install.packages("lsei", repos="http://cran.us.r-project.org")
+install.packages("fitdistrplus", repos="http://cran.us.r-project.org")
+install.packages("Lmoments", repos="http://cran.us.r-project.org")
+install.packages("VineCopula", repos="http://cran.us.r-project.org")
+install.packages("lmomco", repos="http://cran.us.r-project.org")
+install.packages("rvinecopulib", repos="http://cran.us.r-project.org")
+install.packages("npsurv", repos="http://cran.us.r-project.org")

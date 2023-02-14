@@ -1,0 +1,14 @@
+r-base
+r-copula
+r-DISTRIB
+r-distributions3
+r-invgamma
+r-lattice
+r-lestat
+r-lme4
+r-MASS
+r-Matrix
+r-mvtnorm
+r-pracma
+r-survival
+r-xlsx
