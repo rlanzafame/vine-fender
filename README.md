@@ -4,8 +4,10 @@
 
 Instructions for running analysis with local Anaconda installation. The following steps should be run in a terminal and will install a conda environment for R and run the analysis.
 
+Robert ran this using git bash. If you don't have git installed you can download the repo directly from GitHub.
 
 ```
+git clone git@github.com:rlanzafame/vine-fender.git
 conda create --name r-vine-fender
 conda activate r-vine-vine-fender
 conda install -c conda-forge r-base=4.1.3
