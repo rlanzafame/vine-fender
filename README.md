@@ -15,3 +15,8 @@ conda install --file requirements.txt
 Rscript packs.r
 Rscript run_reliability.r
 ```
+
+If you don't have SSH enabled, clone the repository by replacing the first line in the example above with:
+```
+git clone https://github.com/rlanzafame/vine-fender.git
+```
